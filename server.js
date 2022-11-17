@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 4000;
 
 const io = new Server({
   cors: {
-    origin: ["https://frontendhehe.herokuapp.com/"],
+    origin: ["*"],
     methods: ["GET", "POST"],
   },
 });
